@@ -33,7 +33,7 @@ def main():
 
 if __name__ == '__main__':
     main()
-    ```
+```
 
 All local and global variables will be recognised by the `f` function and
 complete Python expressions are also allowed between the braces much like
