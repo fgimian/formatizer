@@ -1,0 +1,18 @@
+# Python byte-compiled, optimized and DLL files
+*.py[cod]
+
+# Cache
+.cache
+
+# Nosetests and coverage information
+.coverage
+nosetests.xml
+coverage.xml
+
+# Distribution & packaging
+build/
+develop-eggs/
+.eggs/
+dist/
+*.egg-info/
+*.egg

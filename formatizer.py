@@ -2,7 +2,7 @@ import inspect
 import sys
 
 PY3 = sys.version_info[0] == 3
-if PY3:
+if PY3:  # pragma: no cover
     import _string
 
 
@@ -33,9 +33,9 @@ class LiteralFormatter(object):
 
     def parse(self, format_string):
         if PY3:
-            return _string.formatter_parser(format_string)
+            return _string.formatter_parser(format_string)  # pragma: no cover
         else:
-            return format_string._formatter_parser()
+            return format_string._formatter_parser()  # pragma: no cover
 
     def convert_field(self, value, conversion):
         if conversion is None:
