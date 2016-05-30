@@ -25,7 +25,7 @@ class PyTest(TestCommand):
 
 setup(
     name='formatizer',
-    version='0.1-dev',
+    version='0.1.dev0',
     description='Literal string formatting for Python versions older than 3.6',
     author='Fotis Gimian',
     author_email='fgimiansoftware@gmail.com',
