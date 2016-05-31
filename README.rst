@@ -12,7 +12,7 @@ Formatizer
    :alt: Formatizer Logo
 
 Awesome artwork provided courtesy of `Open Clip Art
-Library <https://openclipart.org/detail/75799/registry-book>`__
+Library <https://openclipart.org/detail/75799/registry-book>`_
 
 Formatizer provides literal string formatting for Python versions older
 than 3.6. This replaces the need for substitution using ``%`` or the
@@ -32,7 +32,7 @@ Install Formatizer in your virtualenv as follows:
     pip install formatizer
 
 And now, go ahead and use the f function similarly to `PEP
-498 <https://www.python.org/dev/peps/pep-0498/>`__:
+498 <https://www.python.org/dev/peps/pep-0498/>`_:
 
 .. code:: python
 
