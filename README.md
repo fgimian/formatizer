@@ -9,20 +9,21 @@
 Awesome artwork provided courtesy of
 [Open Clip Art Library](https://openclipart.org/detail/75799/registry-book)
 
+Formatizer provides literal string formatting for Python versions older than
+3.6.  This replaces the need for substitution using % or the format function.
+
 Formatizer is covered by unit tests and Flake8 compliance.  Please note that
 this library does use `eval` to perform its expression processing.
 
 ## Quick Start
 
-Install Painter in your virtualenv as follows:
+Install Formatizer in your virtualenv as follows:
 
 ```bash
-pip install git+https://github.com/fgimian/formatizer.git
+pip install formatizer
 ```
 
 And now, go ahead and use the f function similarly to [PEP 498](https://www.python.org/dev/peps/pep-0498/):
-
-e.g.
 
 ```python
 from __future__ import print_function

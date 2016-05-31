@@ -23,10 +23,16 @@ class PyTest(TestCommand):
         sys.exit(errno)
 
 
+# Read the long description from readme.rst
+with open('setup.rst') as f:
+    long_description = f.read()
+
+
 setup(
     name='formatizer',
     version='0.1',
     description='Literal string formatting for Python versions older than 3.6',
+    long_description=long_description,
     author='Fotis Gimian',
     author_email='fgimiansoftware@gmail.com',
     url='https://github.com/fgimian/formatizer',
