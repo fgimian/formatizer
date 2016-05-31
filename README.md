@@ -1,6 +1,9 @@
 # Formatizer
 *Literal string formatting for Python versions older than 3.6*
 
+[![Build Status](https://travis-ci.org/fgimian/formatizer.svg?branch=master)](https://travis-ci.org/fgimian/formatizer)
+[![Coverage Status](https://coveralls.io/repos/fgimian/formatizer/badge.png)](https://coveralls.io/r/fgimian/formatizer)
+
 ![Formatizer Logo](https://raw.githubusercontent.com/fgimian/formatizer/master/images/formatizer-logo.png)
 
 Awesome artwork provided courtesy of
