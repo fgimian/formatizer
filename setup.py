@@ -24,7 +24,7 @@ class PyTest(TestCommand):
 
 
 # Read the long description from readme.rst
-with open('setup.rst') as f:
+with open('README.rst') as f:
     long_description = f.read()
 
 
