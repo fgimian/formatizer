@@ -10,7 +10,8 @@ Awesome artwork provided courtesy of
 [Open Clip Art Library](https://openclipart.org/detail/75799/registry-book)
 
 Formatizer provides literal string formatting for Python versions older than
-3.6.  This replaces the need for substitution using % or the format function.
+3.6.  This replaces the need for substitution using `%` or the `format`
+function.
 
 Formatizer is covered by unit tests and Flake8 compliance.  Please note that
 this library does use `eval` to perform its expression processing.

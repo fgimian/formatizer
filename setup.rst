@@ -5,7 +5,8 @@ Introduction
 ------------
 
 Formatizer provides literal string formatting for Python versions older than
-3.6.  This replaces the need for substitution using % or the format function.
+3.6.  This replaces the need for substitution using ``%`` or the ``format``
+function.
 
 ormatizer is covered by unit tests and Flake8 compliance.  Please note that
 this library does use `eval` to perform its expression processing.
@@ -36,6 +37,6 @@ And now, go ahead and use the f function similarly to
     if __name__ == '__main__':
         main()
 
-All local and global variables will be recognised by the `f` function and
+All local and global variables will be recognised by the ``f`` function and
 complete Python expressions are also allowed between the braces much like
 Python 3.6.
