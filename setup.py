@@ -30,7 +30,7 @@ with open('README.rst') as f:
 
 setup(
     name='formatizer',
-    version='0.1.1',
+    version='0.1.2.dev0',
     description='Literal string formatting for Python versions older than 3.6',
     long_description=long_description,
     author='Fotis Gimian',

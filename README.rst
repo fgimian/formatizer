@@ -9,7 +9,6 @@ Formatizer
    :target: https://coveralls.io/r/fgimian/formatizer
 
 .. image:: https://raw.githubusercontent.com/fgimian/formatizer/master/images/formatizer-logo.png
-   :height: 225px
    :alt: Formatizer Logo
 
 Awesome artwork provided courtesy of `Open Clip Art
