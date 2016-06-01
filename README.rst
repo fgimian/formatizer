@@ -13,7 +13,7 @@ Formatizer
 .. image:: https://raw.githubusercontent.com/fgimian/formatizer/master/images/formatizer-logo.png
    :alt: Formatizer Logo
 
-Awesome artwork provided courtesy of `Open Clip Art
+Artwork courtesy of `Open Clip Art
 Library <https://openclipart.org/detail/75799/registry-book>`_
 
 Introduction
