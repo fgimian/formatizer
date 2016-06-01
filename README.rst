@@ -5,7 +5,7 @@ Formatizer
 
 .. |Build Status| image:: https://travis-ci.org/fgimian/formatizer.svg?branch=master
    :target: https://travis-ci.org/fgimian/formatizer
-.. |Coverage Status| image:: https://coveralls.io/repos/fgimian/formatizer/badge.png
+.. |Coverage Status| image:: https://coveralls.io/repos/fgimian/formatizer/badge.svg
    :target: https://coveralls.io/r/fgimian/formatizer
 .. |License| image:: https://img.shields.io/badge/license-MIT-blue.svg
    :target: https://pypi.python.org/pypi/painter/
