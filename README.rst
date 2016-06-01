@@ -1,18 +1,23 @@
 Formatizer
 ==========
 
-|Build Status| |Coverage Status|
+|Build Status| |Coverage Status| |License|
 
 .. |Build Status| image:: https://travis-ci.org/fgimian/formatizer.svg?branch=master
    :target: https://travis-ci.org/fgimian/formatizer
 .. |Coverage Status| image:: https://coveralls.io/repos/fgimian/formatizer/badge.png
    :target: https://coveralls.io/r/fgimian/formatizer
+.. |License| image:: https://img.shields.io/badge/license-MIT-blue.svg
+   :target: https://pypi.python.org/pypi/painter/
 
 .. image:: https://raw.githubusercontent.com/fgimian/formatizer/master/images/formatizer-logo.png
    :alt: Formatizer Logo
 
 Awesome artwork provided courtesy of `Open Clip Art
 Library <https://openclipart.org/detail/75799/registry-book>`_
+
+Introduction
+------------
 
 Formatizer provides literal string formatting for Python versions older
 than 3.6. This replaces the need for substitution using ``%`` or the
@@ -51,3 +56,21 @@ And now, go ahead and use the f function similarly to `PEP
 All local and global variables will be recognised by the ``f`` function
 and complete Python expressions are also allowed between the braces much
 like Python 3.6.
+
+Running Tests
+-------------
+
+You may run the unit tests as follows:
+
+.. code:: bash
+
+    git clone https://github.com/fgimian/painter.git
+    cd painter
+    python setup.py test
+
+License
+-------
+
+Formatizer is released under the **MIT** license. Please see the
+`LICENSE <https://github.com/fgimian/formatizer/blob/master/LICENSE>`_
+file for more details.
