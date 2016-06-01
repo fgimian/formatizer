@@ -7,7 +7,7 @@ if PY3:  # pragma: no cover
 
 
 class LiteralFormatter(object):
-    def format(self, format_string, globals, locals, recursion_depth=2):
+    def format(self, format_string, globals_, locals_, recursion_depth=2):
         if recursion_depth < 0:
             raise ValueError('Max string recursion exceeded')
 
@@ -23,9 +23,9 @@ class LiteralFormatter(object):
 
             # An expression (e.g. '{1 + 2}')
             if expression is not None:
-                obj = eval(expression, globals, locals)
+                obj = eval(expression, globals_, locals_)
                 obj = self.convert_field(obj, conversion)
-                format_spec = self.format(format_spec, globals, locals,
+                format_spec = self.format(format_spec, globals_, locals_,
                                           recursion_depth - 1)
                 result.append(format(obj, format_spec))
 
