@@ -1,6 +1,15 @@
 import pytest
 
-from formatizer import f
+from formatizer import f, fprint
+
+import sys
+
+PY3 = sys.version_info[0] >= 3
+
+if PY3:  # pragma: no cover
+    from io import StringIO
+else:  # pragma: no cover
+    from StringIO import StringIO
 
 
 def test_literal_string():
@@ -45,3 +54,12 @@ def test_full_example():
         f('My name is {name!s:>8} and I like {interests!r} years old') ==
         "My name is   Booboo and I like {'being': 'cool'} years old"
     )
+
+
+def test_fprint():
+    name = 'Booboo'
+    interests = {'being': 'cool'}
+    s = StringIO()
+    fprint('My name is {name!s:>8} and I like {interests!r} years old', file=s)
+    s = s.getvalue()
+    assert s == "My name is   Booboo and I like {'being': 'cool'} years old\n"
