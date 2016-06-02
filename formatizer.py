@@ -1,5 +1,9 @@
+from __future__ import print_function
+
+
 import inspect
 import sys
+
 
 PY3 = sys.version_info[0] == 3
 if PY3:  # pragma: no cover
@@ -49,9 +53,16 @@ class LiteralFormatter(object):
         )
 
 
-def f(format_string):
-    caller_frame = inspect.currentframe().f_back
+def f(format_string, back=1):
+    caller_frame = inspect.currentframe()
+    for _ in range(back):
+        caller_frame = caller_frame.f_back
     caller_globals = caller_frame.f_globals
     caller_locals = caller_frame.f_locals
     lf = LiteralFormatter()
     return lf.format(format_string, caller_globals, caller_locals)
+
+
+def fprint(*args, **kwargs):
+    args = tuple(str(f(_, back=3)) for _ in args)
+    print(*args, **kwargs)

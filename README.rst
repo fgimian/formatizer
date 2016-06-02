@@ -53,6 +53,15 @@ And now, go ahead and use the f function similarly to `PEP
     if __name__ == '__main__':
         main()
 
+or to print formatted strings directly, import fprint:
+
+.. code:: python
+
+    from formatizer import fprint
+
+    name = 'Fotis'
+    fprint('My name is {name}.')    
+
 All local and global variables will be recognised by the ``f`` function
 and complete Python expressions are also allowed between the braces much
 like Python 3.6.
@@ -64,8 +73,8 @@ You may run the unit tests as follows:
 
 .. code:: bash
 
-    git clone https://github.com/fgimian/painter.git
-    cd painter
+    git clone https://github.com/fgimian/formatizer.git
+    cd formatizer
     python setup.py test
 
 License
