@@ -73,8 +73,8 @@ You may run the unit tests as follows:
 
 .. code:: bash
 
-    git clone https://github.com/fgimian/painter.git
-    cd painter
+    git clone https://github.com/fgimian/formatizer.git
+    cd formatizer
     python setup.py test
 
 License
