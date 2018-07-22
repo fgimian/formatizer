@@ -9,18 +9,19 @@ python:
   - pypy3
 
 install:
-  # Install the Coveralls library
-  - pip install coveralls
+  # Install the codecov library
+  - pip install codecov
 
 script:
   # Upgrade pytest and py to avoid version conflicts
   - pip install -U pytest py
+
   # Run all unit tests and flake8 checks
   - python setup.py test
 
 after_success:
-  # Send coverage statistics to Coveralls
-  coveralls
+  # Send coverage statistics to codecov
+  codecov
 
 notifications:
   # Disable email notifications if something fails
