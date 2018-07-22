@@ -8,7 +8,9 @@ Formatizer
 .. |Coverage Status| image:: https://codecov.io/gh/fgimian/formatizer/branch/master/graph/badge.svg
    :target: https://codecov.io/gh/fgimian/formatizer
 .. |License| image:: https://img.shields.io/badge/license-MIT-blue.svg
-   :target: https://pypi.python.org/pypi/painter/
+   :target: https://github.com/fgimian/formatizer/blob/master/LICENSE
+.. |Latest Version| image:: https://img.shields.io/pypi/v/formatizer.svg
+   :target: https://pypi.python.org/pypi/formatizer/
 
 .. image:: https://raw.githubusercontent.com/fgimian/formatizer/master/images/formatizer-logo.png
    :alt: Formatizer Logo
@@ -64,8 +66,8 @@ You may run the unit tests as follows:
 
 .. code:: bash
 
-    git clone https://github.com/fgimian/painter.git
-    cd painter
+    git clone https://github.com/fgimian/formatizer.git
+    cd formatizer
     python setup.py test
 
 License
